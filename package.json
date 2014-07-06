@@ -14,5 +14,6 @@
     "qs": "~0.6.6"
   },
   "engines": { "npm": "*" },
-  "main": "lib/jaqen.js"
+  "main": "lib/jaqen.js",
+  "bin": "bin/jaqen"
 }

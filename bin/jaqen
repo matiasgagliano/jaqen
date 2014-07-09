@@ -1,6 +1,11 @@
 #!/usr/bin/env node
 var args = process.argv;
-var index = Math.max(args.indexOf('--port'), args.indexOf('-p'));
-var port = args[index + 1];
+
+var getArg = function(name, alias) {
+  var i = Math.max(args.lastIndexOf('--' + name), args.lastIndexOf('-' + alias));
+  return args[i + 1];
+}
+
+var port = getArg('port', 'p');
 
 require("../lib/jaqen").start(port)

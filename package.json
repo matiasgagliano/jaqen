@@ -1,15 +1,15 @@
 {
   "name": "jaqen",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "author": "Matías Gagliano <matias.gagliano@gmail.com>",
-  "description": "Minimal server to programmatically test API dependant scripts.",
+  "description": "Testing server to programmatically test API dependant scripts.",
   "license": ["MIT", "GPL-3.0"],
   "repository": {
     "type": "git",
     "url": "http://github.com/matiasgagliano/jaqen.git"
   },
   "homepage": "http://github.com/matiasgagliano/jaqen",
-  "keywords": ["test", "testing", "server", "api", "respond"],
+  "keywords": ["test", "testing", "server", "api", "respond", "static"],
   "dependencies": {
     "qs": "~0.6.6"
   },

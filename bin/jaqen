@@ -1,11 +1,11 @@
 #!/usr/bin/env node
-var args = process.argv;
-
 var getArg = function(name, alias) {
   var i = Math.max(args.lastIndexOf('--' + name), args.lastIndexOf('-' + alias));
   return args[i + 1];
 }
 
-var port = getArg('port', 'p');
+var Jaqen = require("../lib/jaqen");
+var args  = process.argv;
+var port  = getArg('port', 'p');
 
-require("../lib/jaqen").start(port)
+new Jaqen(port);

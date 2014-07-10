@@ -11,7 +11,8 @@
   "homepage": "http://github.com/matiasgagliano/jaqen",
   "keywords": ["test", "testing", "server", "api", "respond", "static"],
   "dependencies": {
-    "qs": "~0.6.6"
+    "qs": "~0.6.6",
+    "mime": "~1.2.11"
   },
   "engines": { "npm": "*" },
   "main": "lib/jaqen.js",

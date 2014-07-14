@@ -1,6 +1,6 @@
 {
   "name": "jaqen",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "author": "Matías Gagliano <matias.gagliano@gmail.com>",
   "description": "Testing server to programmatically test API dependant scripts.",
   "license": ["MIT", "GPL-3.0"],
